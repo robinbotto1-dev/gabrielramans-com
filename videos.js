@@ -52,7 +52,7 @@ const videos = [
         date: "2024-08-01",
         page: "The AI Toy Company",
         tags: [],
-        roles: ["Directed UGC"],
+        roles: ["Full Stack"],
         thumbnailUrl: "thumbs/personal-4.jpg",
         originalUrl: "https://www.youtube.com/shorts/EB6IskV2iOE",
         orientation: "vertical"
@@ -66,7 +66,7 @@ const videos = [
         date: "2024-09-01",
         page: "The AI Toy Company",
         tags: [],
-        roles: ["Directed UGC"],
+        roles: ["Full Stack"],
         thumbnailUrl: "thumbs/personal-6.jpg",
         originalUrl: "https://www.youtube.com/shorts/l8H4Qk8jjI0",
         orientation: "vertical"
@@ -80,7 +80,7 @@ const videos = [
         date: "2024-07-01",
         page: "The AI Toy Company",
         tags: [],
-        roles: ["Directed UGC"],
+        roles: ["Full Stack"],
         thumbnailUrl: "thumbs/personal-5.jpg",
         originalUrl: "https://www.youtube.com/shorts/nCG_X-V1hts",
         orientation: "vertical"
