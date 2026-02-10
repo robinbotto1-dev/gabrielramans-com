@@ -4,76 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Ramans</title>
+    <meta name="description" content="Gabriel Ramans — Growth Hacker. 500+ videos. 100M+ views.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="intro-title">Hi, I'm Gabriel Ramans</h1>
-            <p class="intro-tagline">I build stories and social content that move fast and feel human.</p>
-        </div>
-    </header>
 
-    <main class="container">
-        <section class="stats">
-            <div class="stats-row">
-                <div class="stat">
-                    <div class="stat-number" data-target="100000000">0+</div>
-                    <div class="stat-label">Views</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number" data-target="50000000">0+</div>
-                    <div class="stat-label">Interactions</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number" data-target="500">0+</div>
-                    <div class="stat-label">Videos</div>
-                </div>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi I'm Gabriel Ramans.</h1>
+                <p class="hero-subtitle">I'm a Growth Hacker and I like to make videos. I've gotten <span class="count-up" data-target="100" data-suffix="M+">0</span> views and have made <span class="count-up" data-target="500" data-suffix="+">0</span> videos. Check out <span class="hero-tab" data-tab="videos">my videos</span> and <span class="hero-tab" data-tab="work">my work</span>.</p>
+                <p class="hero-subtitle hero-nav-row"><span class="hero-nav-links"><a href="mailto:gabrieliramans@gmail.com">Email</a> · <a href="https://linkedin.com/in/gabrielramans" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://x.com/gabrielramans" target="_blank" rel="noopener">X</a></span><span class="mode-toggle" id="mode-toggle">
+    <span class="toggle-track">
+        <span class="toggle-thumb" id="toggle-thumb">
+            <svg class="toggle-icon" id="toggle-icon" viewBox="0 0 24 24" width="14" height="14">
+                <circle cx="12" cy="12" r="5" fill="currentColor"/>
+            </svg>
+        </span>
+    </span>
+</span></p>
             </div>
         </section>
 
-        <section class="filters">
-            <div class="filter-bar">
-                <label class="filter-group">
-                    <span class="filter-label">Platform</span>
-                    <select id="platform-filter">
-                        <option value="all">All</option>
-                        <option value="tiktok">TikTok</option>
-                        <option value="youtube">YouTube</option>
-                        <option value="instagram">Instagram</option>
-                        <option value="x">X</option>
-                    </select>
-                </label>
-                <label class="filter-group">
-                    <span class="filter-label">Sort by</span>
-                    <select id="sort-filter">
-                        <option value="views">Views</option>
-                        <option value="recent">Recent</option>
-                        <option value="date">Date</option>
-                    </select>
-                </label>
-                <label class="filter-group filter-search">
-                    <span class="filter-label">Search</span>
-                    <input id="search-input" type="search" placeholder="Search titles, tags, pages">
-                </label>
+        <section class="tab-content" id="tab-videos" style="display:none">
+            <div class="container">
+                <div id="projects-grid"></div>
+                <div id="featured-films" class="project-block"></div>
             </div>
         </section>
 
-        <section id="video-sections" class="video-sections">
-            <!-- Sections injected by JS -->
+        <section class="tab-content" id="tab-work" style="display:none">
+            <div class="container">
+                <h2 class="work-section-title">WORK EXPERIENCE</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-node">
+                            <img src="thumbs/profile-ez4x4.jpg" class="timeline-pic" alt="EZ4X4">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="work-top">
+                                <div>
+                                    <h3 class="work-title">Head of Marketing</h3>
+                                    <p class="work-company">EZ4X4 <span class="work-date">· Dec 2025 – Present</span></p>
+                                </div>
+                                <a href="https://ez4x4.com" target="_blank" rel="noopener" class="work-link-btn">↗ ez4x4.com</a>
+                            </div>
+                            <p class="work-desc">• Revenue up 24.5% Q1 vs Q4 to date on a summer-seasonal product; 10M fully organic views in first 30 days, lead a 4-person team</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node">
+                            <img src="thumbs/profile-aitoy.jpg" class="timeline-pic" alt="AI Toy Company">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="work-top">
+                                <div>
+                                    <h3 class="work-title">Growth & GTM</h3>
+                                    <p class="work-company">The AI Toy Company, San Francisco, CA <span class="work-date">· Jan 2025 – Aug 2025</span></p>
+                                </div>
+                                <a href="https://bondu.com" target="_blank" rel="noopener" class="work-link-btn">↗ bondu.com</a>
+                            </div>
+                            <p class="work-desc">• Launched product and led GTM, driving 10M+ organic views and scaling UGC into paid growth across Meta, Google, and Shopify</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node">
+                            <img src="thumbs/profile-pump.jpg" class="timeline-pic" alt="Pump.co">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="work-top">
+                                <div>
+                                    <h3 class="work-title">Marketing Lead</h3>
+                                    <p class="work-company">Pump.co, San Francisco, CA <a href="https://www.ycombinator.com/companies/pump-co" target="_blank" rel="noopener" class="yc-badge">YC S22</a> <span class="work-date">· Jul 2024 – Oct 2024</span></p>
+                                </div>
+                                <a href="https://pump.co" target="_blank" rel="noopener" class="work-link-btn">↗ pump.co</a>
+                            </div>
+                            <p class="work-desc">• Generated 310K+ organic engagements; owned all marketing end-to-end (ads, content, creative, landing pages)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node">
+                            <img src="thumbs/profile-sneaker.jpg" class="timeline-pic" alt="Sole Club">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="work-top">
+                                <div>
+                                    <h3 class="work-title">Co-Founder & CMO</h3>
+                                    <p class="work-company">Sole Club, South Windsor, CT <span class="work-date">· Jan 2023 – Jul 2023</span></p>
+                                </div>
+                            </div>
+                            <p class="work-desc">• Built the company. Scaled organic funnel to 1,000+ paying subscribers</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node">
+                            <img src="thumbs/profile-tidal.jpg" class="timeline-pic" alt="Tidal Marketplace">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="work-top">
+                                <div>
+                                    <h3 class="work-title">Head of Marketing</h3>
+                                    <p class="work-company">Tidal Marketplace, West Bloomfield, MI <span class="work-date">· Jan 2021 – May 2023</span></p>
+                                </div>
+                                <a href="https://tidalmarket.com" target="_blank" rel="noopener" class="work-link-btn">↗ tidalmarket.com</a>
+                            </div>
+                            <p class="work-desc">• Grew from 0 → 140K followers and 36.8M organic views, producing 275+ videos; owned all marketing and content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="social-links">
-                <a href="https://twitter.com/gabrielramans" target="_blank" rel="noopener">X</a>
-                <a href="https://tiktok.com/@gabrielramans" target="_blank" rel="noopener">TikTok</a>
-                <a href="https://instagram.com/gabrielramans" target="_blank" rel="noopener">Instagram</a>
-                <a href="https://linkedin.com/in/gabrielramans" target="_blank" rel="noopener">LinkedIn</a>
-            </div>
-        </div>
-    </footer>
 
     <script src="videos.js"></script>
     <script src="script.js"></script>
