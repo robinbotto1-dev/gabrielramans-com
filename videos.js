@@ -88,16 +88,16 @@ const videos = [
 
     {
         title: "",
-        platform: "TikTok",
-        views: 30000000,
+        platform: "X",
+        views: 27000000,
         likes: 0,
         comments: 0,
         date: "2024-01-01",
         page: "Personal",
         tags: [],
-        roles: ["Full Stack"],
+        roles: ["Filmed", "Edited", "Wrote Script"],
         thumbnailUrl: "thumbs/personal-7.jpg",
-        originalUrl: "https://www.tiktok.com/@gabriel..r/video/7331135973947985182",
+        originalUrl: "https://x.com/dantelentini/status/1753549370568368224",
         orientation: "vertical",
         fourthCol: true
     },
@@ -377,7 +377,7 @@ const videos = [
 
 // Project metadata
 const projects = [
-    { id: "personal", name: "Personal", description: "Personal brand content — vlogs, stories, and behind the scenes.", color: "#a78bfa", socialUrl: "https://www.tiktok.com/@gabriel..r", totalViews: 33000000, totalVideos: 15, profilePic: "thumbs/profile-personal.jpg", dateRange: "", endDate: "2024-01-01" },
+    { id: "personal", name: "Personal", description: "Personal brand content — vlogs, stories, and behind the scenes.", color: "#a78bfa", socialUrl: "https://www.tiktok.com/@gabriel..r", totalViews: 30000000, totalVideos: 15, profilePic: "thumbs/profile-personal.jpg", dateRange: "", endDate: "2024-01-01" },
     { id: "sneaker-network", name: "Sneaker Network", description: "Content for the premier sneaker culture platform.", color: "#f97316", socialUrl: "https://www.tiktok.com/@sneakernetwork", totalViews: 23500000, totalVideos: 216, profilePic: "thumbs/profile-sneaker.jpg", dateRange: "Jan 2023 – Jul 2023", endDate: "2023-07-01" },
     { id: "tidal-marketplace", name: "Tidal Marketplace", description: "Brand content for the sneaker resale marketplace.", color: "#06b6d4", socialUrl: "https://www.tiktok.com/@tidalmarketplace", totalViews: 36800000, totalVideos: 270, profilePic: "thumbs/profile-tidal.jpg", dateRange: "Jan 2021 – May 2023", endDate: "2023-05-01" },
     { id: "pump-co", name: "Pump.co", description: "Video content for the cloud cost optimization platform.", color: "#f43f5e", socialUrl: "https://www.youtube.com/@pumpbilling", profilePic: "thumbs/profile-pump.jpg", dateRange: "", endDate: "2025-02-01" },
