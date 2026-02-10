@@ -475,6 +475,10 @@ body.extremely-light .toggle-track {
   grid-column: span 2;
 }
 
+.video-card.fourth-col-only {
+  display: none;
+}
+
 .video-thumb {
   width: 100%;
   aspect-ratio: 9 / 16;
@@ -564,6 +568,10 @@ body.extremely-light .toggle-track {
 
   .featured-films-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .video-card.fourth-col-only {
+    display: block;
   }
 }
 

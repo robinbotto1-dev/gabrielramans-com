@@ -24,7 +24,8 @@ function createVideoCard(video) {
         : 'background: #f0f0f0;';
 
     const titleHtml = video.title ? `<div class="video-title-text">${video.title}</div>` : '';
-    const cardClass = isHorizontal ? ' horizontal span-2' : isSquare ? ' square' : '';
+    const fourthClass = video.fourthCol ? ' fourth-col-only' : '';
+    const cardClass = (isHorizontal ? ' horizontal span-2' : isSquare ? ' square' : '') + fourthClass;
 
     return `
         <article class="video-card${cardClass}">

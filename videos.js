@@ -86,6 +86,22 @@ const videos = [
         orientation: "vertical"
     },
 
+    {
+        title: "",
+        platform: "TikTok",
+        views: 30000000,
+        likes: 0,
+        comments: 0,
+        date: "2024-01-01",
+        page: "Personal",
+        tags: [],
+        roles: ["Full Stack"],
+        thumbnailUrl: "thumbs/personal-7.jpg",
+        originalUrl: "https://www.tiktok.com/@gabriel..r/video/7331135973947985182",
+        orientation: "vertical",
+        fourthCol: true
+    },
+
     // === Sneaker Network (TikTok @sneakernetwork) ===
     {
         title: "",
@@ -130,6 +146,22 @@ const videos = [
         orientation: "vertical"
     },
 
+    {
+        title: "",
+        platform: "TikTok",
+        views: 536000,
+        likes: 0,
+        comments: 0,
+        date: "2023-06-08",
+        page: "Sneaker Network",
+        tags: [],
+        roles: ["Full Stack"],
+        thumbnailUrl: "thumbs/sneaker-4.jpg",
+        originalUrl: "https://www.tiktok.com/@sneakernetwork/video/7243864816014724394",
+        orientation: "vertical",
+        fourthCol: true
+    },
+
     // === Tidal Marketplace (TikTok @tidalmarketplace) ===
     {
         title: "",
@@ -172,6 +204,22 @@ const videos = [
         thumbnailUrl: "thumbs/tidal-3.jpg",
         originalUrl: "https://www.tiktok.com/@tidalmarketplace/video/7127894096835792174",
         orientation: "vertical"
+    },
+
+    {
+        title: "",
+        platform: "TikTok",
+        views: 1300000,
+        likes: 0,
+        comments: 0,
+        date: "2023-01-10",
+        page: "Tidal Marketplace",
+        tags: [],
+        roles: ["Full Stack"],
+        thumbnailUrl: "thumbs/tidal-4.jpg",
+        originalUrl: "https://www.tiktok.com/@tidalmarketplace/video/7046166281732574511",
+        orientation: "vertical",
+        fourthCol: true
     },
 
     // === Pump.co (YouTube - horizontal, only 1 video) ===
@@ -248,6 +296,22 @@ const videos = [
         thumbnailUrl: "thumbs/ez4x4-fb-2.jpg",
         originalUrl: "https://www.facebook.com/reel/3353664334799034",
         orientation: "vertical"
+    },
+
+    {
+        title: "",
+        platform: "Facebook",
+        views: 957000,
+        likes: 0,
+        comments: 0,
+        date: "2024-09-01",
+        page: "EZ4X4",
+        tags: [],
+        roles: ["Filmed", "Edited", "Wrote Script"],
+        thumbnailUrl: "thumbs/ez4x4-fb-3.jpg",
+        originalUrl: "https://www.facebook.com/reel/2064472060995924",
+        orientation: "vertical",
+        fourthCol: true
     },
 
     // === The AI Toy Company (X - horizontal) ===
