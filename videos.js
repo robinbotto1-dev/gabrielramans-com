@@ -1,0 +1,112 @@
+const videos = [
+    {
+        title: 'Air Max 1 Street Heat',
+        platform: 'TikTok',
+        views: 1280000,
+        likes: 152000,
+        comments: 4200,
+        date: '2023-06-09',
+        page: 'Sneaker Network',
+        tags: ['sneakers', 'streetwear', 'airmax'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.tiktok.com/@sneakernetwork/video/7244282056723746091'
+    },
+    {
+        title: 'Dunk Low Colorway Drop',
+        platform: 'TikTok',
+        views: 842000,
+        likes: 98600,
+        comments: 3100,
+        date: '2023-06-07',
+        page: 'Sneaker Network',
+        tags: ['sneakers', 'dunks', 'release'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.tiktok.com/@sneakernetwork/video/7243545221286366506'
+    },
+    {
+        title: 'Collector Shelf Tour',
+        platform: 'TikTok',
+        views: 531000,
+        likes: 74200,
+        comments: 1900,
+        date: '2023-04-19',
+        page: 'Sneaker Network',
+        tags: ['collection', 'sneakerhead'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.tiktok.com/@sneakernetwork/video/7223860590031162667'
+    },
+    {
+        title: 'Behind the Drop: Studio Cut',
+        platform: 'YouTube',
+        views: 214000,
+        likes: 18400,
+        comments: 820,
+        date: '2024-01-18',
+        page: 'Studio Projects',
+        tags: ['studio', 'behindthescenes'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    },
+    {
+        title: 'Sneaker Stories: Episode 12',
+        platform: 'YouTube',
+        views: 98000,
+        likes: 10200,
+        comments: 530,
+        date: '2023-11-03',
+        page: 'Studio Projects',
+        tags: ['series', 'storytelling'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.youtube.com/watch?v=3GwjfUFyY6M'
+    },
+    {
+        title: 'Day in the Life: Market Run',
+        platform: 'Instagram',
+        views: 412000,
+        likes: 68000,
+        comments: 2400,
+        date: '2024-02-12',
+        page: 'Daily Kicks',
+        tags: ['vlog', 'lifestyle'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.instagram.com/reel/C4x3y2z1a/'
+    },
+    {
+        title: 'Fit Check Friday',
+        platform: 'Instagram',
+        views: 156000,
+        likes: 22800,
+        comments: 760,
+        date: '2023-09-22',
+        page: 'Daily Kicks',
+        tags: ['style', 'fitcheck'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.instagram.com/reel/Cy9k8j7h6/'
+    },
+    {
+        title: 'Full Length Interview',
+        platform: 'YouTube',
+        views: 89000,
+        likes: 7600,
+        comments: 410,
+        date: '2024-01-25',
+        page: 'Studio Projects',
+        tags: ['interview', 'longform'],
+        thumbnailUrl: '',
+        originalUrl: 'https://www.youtube.com/watch?v=example',
+        orientation: 'horizontal'
+    },
+    {
+        title: 'Hot Take Thread',
+        platform: 'X',
+        views: 245000,
+        likes: 34100,
+        comments: 1900,
+        date: '2024-02-01',
+        page: 'Daily Kicks',
+        tags: ['opinion', 'viral'],
+        thumbnailUrl: '',
+        originalUrl: 'https://x.com/gabrielramans/status/example',
+        orientation: 'horizontal'
+    }
+];
