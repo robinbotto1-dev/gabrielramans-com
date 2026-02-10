@@ -349,6 +349,8 @@ body.extremely-light .toggle-track {
   margin-left: 4px;
   position: relative;
   top: -1px;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 /* ── Project Block ── */
@@ -569,9 +571,7 @@ body.extremely-light .toggle-track {
 
 @media (max-width: 480px) {
   .project-videos-row {
-    grid-template-columns: 1fr;
-    max-width: 360px;
-    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .featured-films-grid {
