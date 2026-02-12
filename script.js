@@ -84,8 +84,8 @@ function renderFeaturedFilms() {
     container.innerHTML = `
         <div class="project-header">
             <div class="project-header-left">
-                <h3 class="project-name">Long Form</h3>
-                <span class="project-meta">3 videos · 410K views</span>
+                <h3 class="project-name">Long Form<span class="project-views-badge">410K views</span></h3>
+                <span class="project-meta">3 videos</span>
             </div>
         </div>
         <div class="featured-films-grid">${cardsHtml}</div>
@@ -118,7 +118,7 @@ function buildProjectBlock(project) {
     block.innerHTML = `
         <div class="project-header">
             <div class="project-header-left">
-                <h3 class="project-name">${project.name}</h3>
+                <h3 class="project-name">${project.name}<span class="project-views-badge">${formatNumber(totalViews)} views</span></h3>
                 <span class="project-meta">${metaParts}</span>
             </div>
             <a href="${project.socialUrl || '#'}" target="_blank" rel="noopener" class="project-view-all">
