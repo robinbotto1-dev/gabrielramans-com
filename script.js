@@ -109,7 +109,6 @@ function buildProjectBlock(project) {
 
     const metaParts = [
         `${videoCount} videos`,
-        `${formatNumber(totalViews)} views`,
         project.dateRange || ''
     ].filter(Boolean).join(' · ');
 
