@@ -117,6 +117,16 @@ a {
   color: #f59e0b;
 }
 
+/* Smooth transition for mode toggle */
+.hero-title, .hero-subtitle, .hero-subtitle a, .count-up, .hero-tab,
+.project-name, .project-meta, .video-title-text, .video-meta,
+.role-tag, .work-section-title, .work-title, .work-company,
+.work-date, .work-desc, .work-link-btn, .project-view-arrow,
+.video-thumb, .featured-film-thumb, .project-profile-pic,
+.timeline-pic, .yc-badge, .toggle-track {
+  transition: text-shadow 0.2s ease, box-shadow 0.2s ease;
+}
+
 /* Extremely light mode - heavenly glow */
 body.extremely-light .hero-title,
 body.extremely-light .hero-subtitle,
@@ -136,32 +146,26 @@ body.extremely-light .work-desc,
 body.extremely-light .work-link-btn,
 body.extremely-light .project-view-arrow {
   text-shadow:
-    0 0 10px rgba(255, 223, 128, 0.8),
-    0 0 20px rgba(255, 223, 128, 0.6),
-    0 0 40px rgba(255, 200, 80, 0.4),
-    0 0 80px rgba(255, 200, 80, 0.2);
+    0 0 12px rgba(255, 223, 128, 0.7),
+    0 0 40px rgba(255, 200, 80, 0.3);
 }
 
 body.extremely-light .role-tag {
   text-shadow:
-    0 0 10px rgba(255, 223, 128, 0.8),
-    0 0 20px rgba(255, 223, 128, 0.6),
-    0 0 40px rgba(255, 200, 80, 0.4);
+    0 0 12px rgba(255, 223, 128, 0.7),
+    0 0 40px rgba(255, 200, 80, 0.3);
   box-shadow:
-    0 0 8px rgba(255, 223, 128, 0.5),
-    0 0 16px rgba(255, 200, 80, 0.3);
+    0 0 10px rgba(255, 223, 128, 0.4);
 }
 
 body.extremely-light .yc-badge {
   box-shadow:
-    0 0 8px rgba(242, 101, 34, 0.6),
-    0 0 16px rgba(242, 101, 34, 0.3);
+    0 0 10px rgba(242, 101, 34, 0.4);
 }
 
 body.extremely-light .work-link-btn {
   box-shadow:
-    0 0 8px rgba(255, 223, 128, 0.5),
-    0 0 16px rgba(255, 200, 80, 0.3);
+    0 0 10px rgba(255, 223, 128, 0.4);
 }
 
 body.extremely-light .video-thumb,
@@ -169,8 +173,7 @@ body.extremely-light .featured-film-thumb,
 body.extremely-light .project-profile-pic,
 body.extremely-light .timeline-pic {
   box-shadow:
-    0 0 15px rgba(255, 223, 128, 0.6),
-    0 0 30px rgba(255, 200, 80, 0.3);
+    0 0 15px rgba(255, 223, 128, 0.5);
 }
 
 body.extremely-light .toggle-track {
