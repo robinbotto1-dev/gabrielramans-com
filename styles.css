@@ -560,6 +560,7 @@ body.extremely-light .project-views-badge {
 .role-tag[data-role="Edited"] { background: #fce7f3; color: #9d174d; }
 .role-tag[data-role="Wrote Script"] { background: #d1fae5; color: #065f46; }
 .role-tag[data-role="Graphic Design"] { background: #ede9fe; color: #5b21b6; }
+.role-tag[data-role="On Camera"] { background: #fef3c7; color: #92400e; }
 .role-tag[data-role="Directed UGC"] { background: #ffe4e6; color: #be123c; }
 .role-tag[data-role="Full Stack"] {
   background: #1a1a1a;
