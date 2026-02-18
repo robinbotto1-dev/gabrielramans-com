@@ -496,7 +496,7 @@ body.extremely-light .project-views-badge {
 }
 
 .video-card.fourth-col-only {
-  display: none;
+  display: block;
 }
 
 .video-thumb {
