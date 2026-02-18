@@ -323,7 +323,7 @@ const videos = [
         date: "2025-01-15",
         page: "EZ4X4",
         tags: [],
-        roles: ["Filmed", "Edited", "Wrote Script"],
+        roles: ["On Camera", "Edited", "Wrote Script"],
         thumbnailUrl: "thumbs/ez4x4-fb-4.jpg",
         originalUrl: "https://www.facebook.com/reel/2493661151111146",
         orientation: "vertical"
