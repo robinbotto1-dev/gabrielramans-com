@@ -301,14 +301,42 @@ const videos = [
     {
         title: "",
         platform: "Facebook",
-        views: 957000,
+        views: 1200000,
         likes: 0,
         comments: 0,
-        date: "2024-09-01",
+        date: "2025-01-15",
         page: "EZ4X4",
         tags: [],
         roles: ["Filmed", "Edited", "Wrote Script"],
-        thumbnailUrl: "thumbs/ez4x4-fb-3.jpg",
+        thumbnailUrl: "thumbs/ez4x4-fb-4.jpg",
+        originalUrl: "https://www.facebook.com/reel/2493661151111146",
+        orientation: "vertical"
+    },
+    {
+        title: "",
+        platform: "Facebook",
+        views: 1000000,
+        likes: 0,
+        comments: 0,
+        date: "2025-01-20",
+        page: "EZ4X4",
+        tags: [],
+        roles: ["Filmed", "Edited", "Wrote Script"],
+        thumbnailUrl: "thumbs/ez4x4-fb-5.jpg",
+        originalUrl: "https://www.facebook.com/reel/875522412046383",
+        orientation: "vertical"
+    },
+    {
+        title: "",
+        platform: "Facebook",
+        views: 1000000,
+        likes: 0,
+        comments: 0,
+        date: "2025-02-01",
+        page: "EZ4X4",
+        tags: [],
+        roles: ["Filmed", "Edited", "Wrote Script"],
+        thumbnailUrl: "thumbs/ez4x4-fb-6.jpg",
         originalUrl: "https://www.facebook.com/reel/2064472060995924",
         orientation: "vertical",
         fourthCol: true
@@ -381,6 +409,6 @@ const projects = [
     { id: "sneaker-network", name: "Sneaker Network", description: "Content for the premier sneaker culture platform.", color: "#f97316", socialUrl: "https://www.tiktok.com/@sneakernetwork", totalViews: 23500000, totalVideos: 216, profilePic: "thumbs/profile-sneaker.jpg", dateRange: "Jan 2023 – Jul 2023", endDate: "2023-07-01" },
     { id: "tidal-marketplace", name: "Tidal Marketplace", description: "Brand content for the sneaker resale marketplace.", color: "#06b6d4", socialUrl: "https://www.tiktok.com/@tidalmarketplace", totalViews: 36800000, totalVideos: 270, profilePic: "thumbs/profile-tidal.jpg", dateRange: "Jan 2021 – May 2023", endDate: "2023-05-01" },
     { id: "pump-co", name: "Pump.co", description: "Video content for the cloud cost optimization platform.", color: "#f43f5e", socialUrl: "https://www.youtube.com/@pumpbilling", profilePic: "thumbs/profile-pump.jpg", dateRange: "", endDate: "2025-02-01" },
-    { id: "ez4x4", name: "EZ4X4", description: "Product and UGC content for Jeep, Bronco & truck accessories.", color: "#84cc16", socialUrl: "https://www.facebook.com/ez4x4official/", totalViews: 13500000, totalVideos: 16, profilePic: "thumbs/profile-ez4x4.jpg", dateRange: "Dec 2025 – Present", endDate: "2026-12-01" },
+    { id: "ez4x4", name: "EZ4X4", description: "Product and UGC content for Jeep, Bronco & truck accessories.", color: "#84cc16", socialUrl: "https://www.facebook.com/ez4x4official/", totalViews: 16000000, totalVideos: 19, profilePic: "thumbs/profile-ez4x4.jpg", dateRange: "Dec 2025 – Present", endDate: "2026-12-01" },
     { id: "the-ai-toy-company", name: "The AI Toy Company", description: "Creative content for bondu, the AI-powered toy.", color: "#8b5cf6", socialUrl: "https://www.instagram.com/heybondu/", totalViews: 10000000, totalVideos: 30, profilePic: "thumbs/profile-aitoy.jpg", dateRange: "Jan 2025 – Aug 2025", endDate: "2025-08-01" }
 ];
